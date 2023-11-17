@@ -2,9 +2,9 @@ import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import CardMedia from "@mui/material/CardMedia";
 import Typography from "@mui/material/Typography";
-// import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
-// import AcUnitIcon from "@mui/icons-material/AcUnit";
-// import WbSunnyIcon from "@mui/icons-material/WbSunny";
+import ThunderstormIcon from "@mui/icons-material/Thunderstorm";
+import AcUnitIcon from "@mui/icons-material/AcUnit";
+import WbSunnyIcon from "@mui/icons-material/WbSunny";
 import "./InfoBox.css";
 
 export default function InfoBox({ info }) {
@@ -35,14 +35,17 @@ export default function InfoBox({ info }) {
           />
           <CardContent className="card">
             <Typography gutterBottom variant="h5" component="div">
-              {info.city}
-              {/* {info.humidity > 80 ? (
-                <ThunderstormIcon />
-              ) : info.temp > 15 ? (
-                <WbSunnyIcon />
-              ) : (
-                <AcUnitIcon />
-              )} */}
+              <div>
+                {info.humidity > 80 ? (
+                  <ThunderstormIcon />
+                ) : info.temp > 15 ? (
+                  <WbSunnyIcon />
+                ) : (
+                  <AcUnitIcon />
+                )}
+                &nbsp;
+                <div>{info.city}</div>
+              </div>
             </Typography>
             <Typography
               variant="body2"
