@@ -35,7 +35,7 @@ export default function InfoBox({ info }) {
           />
           <CardContent className="card">
             <Typography gutterBottom variant="h5" component="div">
-              <div>
+              <div className="set">
                 {info.humidity > 80 ? (
                   <ThunderstormIcon />
                 ) : info.temp > 15 ? (
@@ -44,7 +44,7 @@ export default function InfoBox({ info }) {
                   <AcUnitIcon />
                 )}
                 &nbsp;
-                <div>{info.city}</div>
+                <div className="cityname">{info.city}</div>
               </div>
             </Typography>
             <Typography

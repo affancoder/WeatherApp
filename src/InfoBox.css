@@ -11,3 +11,11 @@
   background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRjcEFumeRKP6KOoRsVTqfZlBjFpEa72ME5sI-LGvcORgzz4ErXmfM1PuxBstt8fxTVk&usqp=CAU");
   background-size: cover;
 }
+
+.set {
+  display: flex;
+  justify-content: center;
+}
+.cityname {
+  margin-top: -4px;
+}
