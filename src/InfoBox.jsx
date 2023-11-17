@@ -33,7 +33,7 @@ export default function InfoBox({ info }) {
             }
             title="green iguana"
           />
-          <CardContent>
+          <CardContent className="card">
             <Typography gutterBottom variant="h5" component="div">
               {info.city}
               {/* {info.humidity > 80 ? (

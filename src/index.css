@@ -5,8 +5,10 @@
 
   color-scheme: light dark;
   /* color: rgba(255, 255, 255, 0.87); */
-  background-color: white;
+  background-color: rgb(78, 122, 194);
   color: black;
+  background: url("https://img.freepik.com/premium-photo/abstract-blurred-gradient-background-blue-dark-red-color-background-banner-template-mesh-backdrop_335640-3190.jpg");
+  background-size: cover;
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;

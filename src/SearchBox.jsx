@@ -58,6 +58,7 @@ export default function SearchBox({ updateInfo }) {
           required
           value={city}
           onChange={handleChange}
+          placeholder="London"
         />
         <br></br>
         <br></br>
