@@ -53,12 +53,12 @@ export default function SearchBox({ updateInfo }) {
       <form onSubmit={handleSumit}>
         <TextField
           id="city"
-          label="City Name"
+          // label="City Name"
           variant="outlined"
           required
           value={city}
           onChange={handleChange}
-          placeholder="London"
+          placeholder="City name"
         />
         <br></br>
         <br></br>
